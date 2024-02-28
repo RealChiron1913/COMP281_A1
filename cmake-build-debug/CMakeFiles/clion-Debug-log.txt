@@ -1,0 +1,10 @@
+"/Users/gubinzhao/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/gubinzhao/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1 -B /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug
+-- The C compiler identification is AppleClang 14.0.0.14000029
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug

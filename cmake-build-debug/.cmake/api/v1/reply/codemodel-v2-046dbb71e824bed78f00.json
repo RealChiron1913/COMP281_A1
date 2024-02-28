@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "assignment1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "assignment1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assignment1-Debug-6c6720a7e2b12c05550c.json",
+					"name" : "assignment1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "assignment1_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assignment1_1-Debug-9bbbac29a06350ecaacd.json",
+					"name" : "assignment1_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "assignment1_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assignment1_2-Debug-a3844cda5ebdc63d5ace.json",
+					"name" : "assignment1_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "assignment1_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assignment1_3-Debug-44b289b5ecdabef33f8e.json",
+					"name" : "assignment1_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "assignment1_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assignment1_4-Debug-a249622ea4773c65c00f.json",
+					"name" : "assignment1_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "assignment1_5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assignment1_5-Debug-adb549c1a993cf2d0e53.json",
+					"name" : "assignment1_5",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/gubinzhao/Library/CloudStorage/OneDrive-\u4e2a\u4eba/\u684c\u9762/assignment1/cmake-build-debug",
+		"source" : "/Users/gubinzhao/Library/CloudStorage/OneDrive-\u4e2a\u4eba/\u684c\u9762/assignment1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

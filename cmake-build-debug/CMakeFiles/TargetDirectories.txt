@@ -1,0 +1,8 @@
+/Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug/CMakeFiles/assignment1.dir
+/Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug/CMakeFiles/assignment1_1.dir
+/Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug/CMakeFiles/assignment1_2.dir
+/Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug/CMakeFiles/assignment1_3.dir
+/Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug/CMakeFiles/assignment1_4.dir
+/Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug/CMakeFiles/assignment1_5.dir
+/Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,344 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: assignment1
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment1
+
+
+#############################################
+# Order-only phony target for assignment1
+
+build cmake_object_order_depends_target_assignment1: phony || CMakeFiles/assignment1.dir
+
+build CMakeFiles/assignment1.dir/assignment1_1.c.o: C_COMPILER__assignment1_Debug /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/assignment1_1.c || cmake_object_order_depends_target_assignment1
+  DEP_FILE = CMakeFiles/assignment1.dir/assignment1_1.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/assignment1.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment1.dir
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1.dir/
+  TARGET_PDB = assignment1.pdb
+
+build CMakeFiles/assignment1.dir/assignment1_2.c.o: C_COMPILER__assignment1_Debug /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/assignment1_2.c || cmake_object_order_depends_target_assignment1
+  DEP_FILE = CMakeFiles/assignment1.dir/assignment1_2.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/assignment1.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment1.dir
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1.dir/
+  TARGET_PDB = assignment1.pdb
+
+build CMakeFiles/assignment1.dir/assignment1_3.c.o: C_COMPILER__assignment1_Debug /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/assignment1_3.c || cmake_object_order_depends_target_assignment1
+  DEP_FILE = CMakeFiles/assignment1.dir/assignment1_3.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/assignment1.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment1.dir
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1.dir/
+  TARGET_PDB = assignment1.pdb
+
+build CMakeFiles/assignment1.dir/assignment1_4.c.o: C_COMPILER__assignment1_Debug /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/assignment1_4.c || cmake_object_order_depends_target_assignment1
+  DEP_FILE = CMakeFiles/assignment1.dir/assignment1_4.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/assignment1.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment1.dir
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1.dir/
+  TARGET_PDB = assignment1.pdb
+
+build CMakeFiles/assignment1.dir/assignment1_5.c.o: C_COMPILER__assignment1_Debug /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/assignment1_5.c || cmake_object_order_depends_target_assignment1
+  DEP_FILE = CMakeFiles/assignment1.dir/assignment1_5.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/assignment1.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment1.dir
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1.dir/
+  TARGET_PDB = assignment1.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment1
+
+
+#############################################
+# Link the executable assignment1
+
+build assignment1: C_EXECUTABLE_LINKER__assignment1_Debug CMakeFiles/assignment1.dir/assignment1_1.c.o CMakeFiles/assignment1.dir/assignment1_2.c.o CMakeFiles/assignment1.dir/assignment1_3.c.o CMakeFiles/assignment1.dir/assignment1_4.c.o CMakeFiles/assignment1.dir/assignment1_5.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/assignment1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1.dir/
+  TARGET_FILE = assignment1
+  TARGET_PDB = assignment1.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment1_1
+
+
+#############################################
+# Order-only phony target for assignment1_1
+
+build cmake_object_order_depends_target_assignment1_1: phony || CMakeFiles/assignment1_1.dir
+
+build CMakeFiles/assignment1_1.dir/assignment1_1.c.o: C_COMPILER__assignment1_1_Debug /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/assignment1_1.c || cmake_object_order_depends_target_assignment1_1
+  DEP_FILE = CMakeFiles/assignment1_1.dir/assignment1_1.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/assignment1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment1_1.dir
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1_1.dir/
+  TARGET_PDB = assignment1_1.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment1_1
+
+
+#############################################
+# Link the executable assignment1_1
+
+build assignment1_1: C_EXECUTABLE_LINKER__assignment1_1_Debug CMakeFiles/assignment1_1.dir/assignment1_1.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/assignment1_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1_1.dir/
+  TARGET_FILE = assignment1_1
+  TARGET_PDB = assignment1_1.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment1_2
+
+
+#############################################
+# Order-only phony target for assignment1_2
+
+build cmake_object_order_depends_target_assignment1_2: phony || CMakeFiles/assignment1_2.dir
+
+build CMakeFiles/assignment1_2.dir/assignment1_2.c.o: C_COMPILER__assignment1_2_Debug /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/assignment1_2.c || cmake_object_order_depends_target_assignment1_2
+  DEP_FILE = CMakeFiles/assignment1_2.dir/assignment1_2.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/assignment1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment1_2.dir
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1_2.dir/
+  TARGET_PDB = assignment1_2.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment1_2
+
+
+#############################################
+# Link the executable assignment1_2
+
+build assignment1_2: C_EXECUTABLE_LINKER__assignment1_2_Debug CMakeFiles/assignment1_2.dir/assignment1_2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/assignment1_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1_2.dir/
+  TARGET_FILE = assignment1_2
+  TARGET_PDB = assignment1_2.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment1_3
+
+
+#############################################
+# Order-only phony target for assignment1_3
+
+build cmake_object_order_depends_target_assignment1_3: phony || CMakeFiles/assignment1_3.dir
+
+build CMakeFiles/assignment1_3.dir/assignment1_3.c.o: C_COMPILER__assignment1_3_Debug /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/assignment1_3.c || cmake_object_order_depends_target_assignment1_3
+  DEP_FILE = CMakeFiles/assignment1_3.dir/assignment1_3.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/assignment1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment1_3.dir
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1_3.dir/
+  TARGET_PDB = assignment1_3.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment1_3
+
+
+#############################################
+# Link the executable assignment1_3
+
+build assignment1_3: C_EXECUTABLE_LINKER__assignment1_3_Debug CMakeFiles/assignment1_3.dir/assignment1_3.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/assignment1_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1_3.dir/
+  TARGET_FILE = assignment1_3
+  TARGET_PDB = assignment1_3.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment1_4
+
+
+#############################################
+# Order-only phony target for assignment1_4
+
+build cmake_object_order_depends_target_assignment1_4: phony || CMakeFiles/assignment1_4.dir
+
+build CMakeFiles/assignment1_4.dir/assignment1_4.c.o: C_COMPILER__assignment1_4_Debug /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/assignment1_4.c || cmake_object_order_depends_target_assignment1_4
+  DEP_FILE = CMakeFiles/assignment1_4.dir/assignment1_4.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/assignment1_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment1_4.dir
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1_4.dir/
+  TARGET_PDB = assignment1_4.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment1_4
+
+
+#############################################
+# Link the executable assignment1_4
+
+build assignment1_4: C_EXECUTABLE_LINKER__assignment1_4_Debug CMakeFiles/assignment1_4.dir/assignment1_4.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/assignment1_4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1_4.dir/
+  TARGET_FILE = assignment1_4
+  TARGET_PDB = assignment1_4.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment1_5
+
+
+#############################################
+# Order-only phony target for assignment1_5
+
+build cmake_object_order_depends_target_assignment1_5: phony || CMakeFiles/assignment1_5.dir
+
+build CMakeFiles/assignment1_5.dir/assignment1_5.c.o: C_COMPILER__assignment1_5_Debug /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/assignment1_5.c || cmake_object_order_depends_target_assignment1_5
+  DEP_FILE = CMakeFiles/assignment1_5.dir/assignment1_5.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/assignment1_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment1_5.dir
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1_5.dir/
+  TARGET_PDB = assignment1_5.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment1_5
+
+
+#############################################
+# Link the executable assignment1_5
+
+build assignment1_5: C_EXECUTABLE_LINKER__assignment1_5_Debug CMakeFiles/assignment1_5.dir/assignment1_5.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/assignment1_5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/assignment1_5.dir/
+  TARGET_FILE = assignment1_5
+  TARGET_PDB = assignment1_5.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug && "/Users/gubinzhao/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug && "/Users/gubinzhao/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1 -B/Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/cmake-build-debug
+
+build all: phony assignment1 assignment1_1 assignment1_2 assignment1_3 assignment1_4 assignment1_5
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystem.cmake.in /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystem.cmake.in /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/gubinzhao/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/gubinzhao/Library/CloudStorage/OneDrive-个人/桌面/assignment1/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
